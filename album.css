@@ -1,0 +1,89 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+.navbar-toggler{
+background-color: #dddddd;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+
+.text-theme-color{
+  color: #212121;
+}
+
+/* 卡片 */
+
+.card-tip{
+ border:none;
+ border-radius:0;
+ margin: 10px 10px 0px 10px;
+}
+ .card-title{
+  color:rgb(83, 83, 83);
+  font-size: 20px;
+}
+ .card-text{
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+
+/* group */
+.card-group-tip{
+  margin: 10px 10px 0px 10px;
+}
+.card-group-tip .card{
+ border: 1px solid rgba(0,0,0,.125);
+}
+/* 垂直 */
+.columnDirection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .card-tip{
+    border:none;
+    border-radius:0;
+    margin: 100px 60px 0px 60px;
+   }
+   .card-group-tip{
+    margin: 100px 50px 0px 50px;
+  }
+  .card-group-tip .card{
+    border: none;
+   }
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
