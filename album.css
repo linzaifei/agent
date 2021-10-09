@@ -1,0 +1,70 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+.navbar-toggler{
+background-color: #dddddd;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+
+.text-theme-color{
+  color: #212121;
+}
+
+/* 卡片 */
+
+.card{
+ border:none;
+ border-radius:0;
+ margin: 10px 10px 0px 10px;
+}
+.card-title{
+  color:rgb(83, 83, 83);
+  font-size: 20px;
+}
+.card-text{
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .card{
+    border:none;
+    border-radius:0;
+    margin: 100px 60px 0px 60px;
+   }
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
